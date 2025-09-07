@@ -1,12 +1,40 @@
-# React + Vite
+# Website Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a drag-and-drop website builder built with React and `@dnd-kit`. It allows users to create and customize templates by dragging and dropping elements into predefined slots.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AsadGuru/Drag-n-Drop.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd website-builder
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## Expanding the ESLint configuration
+## Usage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Development Server
+To start the development server, run:
+```bash
+npm run dev
+```
+This will start the server at `http://localhost:5173`.
+
+### Build for Production
+To build the project for production, run:
+```bash
+npm run build
+```
+The build files will be generated in the `dist` folder.
+
+### Preview Production Build
+To preview the production build, run:
+```bash
+npm run preview
+```
